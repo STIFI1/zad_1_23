@@ -1,0 +1,21 @@
+<html>
+<body>
+    <div style="color:greenyellow;font-size:56px;">
+        <script language="JavaScript">
+            var D1_wro=prompt("dzień1=","");
+            var D2_wro=prompt("dzień2=","");
+            var G1_wro=prompt("godzina1=","");
+            var G2_wro=prompt("godzina2=","");
+            var wynik;
+            var a=parseFloat(D1_wro);
+            var b=parseFloat(D2_wro);
+            var c=parseFloat(G1_wro);
+            var d=parseFloat(G2_wro);
+            wynik=((a-b)*86400)+((c-d)*3600);
+            document.write("ilość sekund między tymi dniami i godziną wynosi: "+wynik+"s")
+ 
+        </script>
+    </div>
+ 
+</body>
+</html>
